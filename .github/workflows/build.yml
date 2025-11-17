@@ -48,7 +48,7 @@ jobs:
           echo "    INDEX 01 00:00:00" >> game.cue
 
       - name: Upload artifacts (BIN+CUE)
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: PS1-BIN-CUE
           path: build_game/
